@@ -5,5 +5,23 @@
     <SymbolConfigObject version="3.5.10.40" runtimeid="3.5.10.40" libversion="3.5.10.0" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
     <ProjectInfo name="Uppgift14" devicename="Device" appname="Application" />
   </Header>
-  <TypeList />
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="Conv1MotorFwd" type="T_BOOL" access="ReadWrite" />
+        <Node name="Conv2MotorFwd" type="T_BOOL" access="ReadWrite" />
+        <Node name="DoorMotorFwd" type="T_BOOL" access="ReadWrite" />
+        <Node name="DoorMotorRev" type="T_BOOL" access="ReadWrite" />
+        <Node name="Light" type="T_BOOL" access="ReadWrite" />
+        <Node name="Sensor1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Sensor2" type="T_BOOL" access="ReadWrite" />
+        <Node name="Sensor3" type="T_BOOL" access="ReadWrite" />
+        <Node name="SensorClose" type="T_BOOL" access="ReadWrite" />
+        <Node name="SensorOpen" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
 </Symbolconfiguration>
